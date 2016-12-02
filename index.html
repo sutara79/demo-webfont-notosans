@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>test</title>
+<!-- Bootstrap (ページ整形用) -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- 独自CSS: ローカルになければウェブフォントを利用する -->
+<link rel="stylesheet" href="webfont-notosans.css">
+<style>
+.noto {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+}
+.palt {
+  font-feature-settings: "palt" on;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="table-responsive">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>フォント設定</th>
+          <th>文章</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Noto Sans JP (独自CSS: ローカルになければウェブフォントを利用する)</td>
+          <td class="noto">あいうえお</td>
+        </tr>
+        <tr>
+          <td>Noto Sans JP + <strong>字詰め</strong> <span class="text-success">※有効です</span></td>
+          <td class="noto palt">あいうえお</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+</body>
+</html>
