@@ -1,5 +1,8 @@
 # Noto Sans JPをローカルフォントまたはウェブフォントとしてCSSで利用する方法
 
+## 対応ブラウザ
+- IE10+ (文字詰めを使わないなら、IE9+)
+
 ## Demo
 - ローカルになければウェブフォントを利用する独自処理。  
   https://sutara79.github.io/demo-webfont-notosans/
