@@ -1,5 +1,8 @@
 # ローカルに"Noto Sans CJK JP"がなければWebフォントの"Noto Sans JP"を利用するCSSの指定方法
 
+## 対応ブラウザ
+- IE10+ (文字詰めを使わないなら、IE9+)
+
 ## Demo
 - ローカルになければWebフォントを利用する独自処理。  
   https://sutara79.github.io/demo-webfont-notosans/
