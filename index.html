@@ -10,9 +10,29 @@
 <!-- 独自CSS: ローカルになければウェブフォントを利用する -->
 <link rel="stylesheet" href="webfont-notosans.css">
 <style>
-.noto {
+.noto100 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 100;
+}
+.noto300 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 300;
+}
+.noto400 {
   font-family: "Noto Sans JP", sans-serif;
   font-weight: 400;
+}
+.noto500 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+}
+.noto700 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+}
+.noto900 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 900;
 }
 .palt {
   font-feature-settings: "palt" on;
@@ -22,22 +42,40 @@
 <body>
 
 <div class="container">
+  <h2>独自CSSの表示確認</h2>
+  <p>ローカルになければウェブフォントを利用するという独自CSSで、フォントが正しく<code>Noto Sans JP</code>で表示されることを確認します。</p>
   <div class="table-responsive">
     <table class="table table-striped">
       <thead>
         <tr>
-          <th>フォント設定</th>
-          <th>文章</th>
+          <th>font-weight</th>
+          <th>文字表示</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Noto Sans JP (独自CSS: ローカルになければウェブフォントを利用する)</td>
-          <td class="noto">あいうえお</td>
+          <td>100</td>
+          <td class="noto100">あいうえお</td>
         </tr>
         <tr>
-          <td>Noto Sans JP + <strong>字詰め</strong> <span class="text-success">※有効です</span></td>
-          <td class="noto palt">あいうえお</td>
+          <td>300</td>
+          <td class="noto300">あいうえお</td>
+        </tr>
+        <tr>
+          <td>400</td>
+          <td class="noto400">あいうえお</td>
+        </tr>
+        <tr>
+          <td>500</td>
+          <td class="noto500">あいうえお</td>
+        </tr>
+        <tr>
+          <td>700</td>
+          <td class="noto700">あいうえお</td>
+        </tr>
+        <tr>
+          <td>900</td>
+          <td class="noto900">あいうえお</td>
         </tr>
       </tbody>
     </table>
